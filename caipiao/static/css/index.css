@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.shengxiao-ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+}
+
+.shengxiao-ul > li > button {
+    float: left;
+    font: bolder 22px "微软雅黑";
+    padding: 5px 5px;
+
+}
+
+h1 {
+    color: red;
+}
+
+.shell {
+    width: 1500px;
+    height: 600px;
+    /*background-color: salmon;*/
+    border: solid 1px #0099FF;
+    box-sizing: border-box;
+}
+
+.shengxiao-ul .active1 {
+    background-color: #888;
+}
+
+.shengxiao-ul button:hover {
+    background-color: #888;
+
+}
+
+.btn-1 {
+    background-color: #fff;
+    width: 80px;
+}
+
+.row {
+    /*padding: 0;*/
+    /*margin: 0;*/
+}
+
+/*.col-md-1 {*/
+/*background-color: darkcyan;*/
+/*margin: 0;*/
+
+/*}*/
+
+.top {
+    height: 80px;
+    background-color: yellowgreen;
+}
+
+.bottom {
+    /*height: 100   %;*/
+    /*width: 100%;*/
+    /*background-color: red;*/
+}
+
+.left {
+    background-color: firebrick;
+    height: 600px;
+    /*padding: 0;*/
+}
+
+.left > div:nth-child(1) {
+    border: solid #333;
+    /*height: 100%;*/
+}
+
+.renwen {
+    width: 100%;
+    background-color: #ddd;
+
+    padding: 10px;
+    /*margin: 1px;*/
+
+    /*margin-top: 10px;*/
+    border: #111;
+    text-align: center;
+}
+
+.sheng1 {
+    padding: 0;
+}
+
+.shengxiao {
+    /*width: 100%;*/
+    background-color: #ddd;
+    margin: 0;
+    border: #111;
+}
+
+.shengxiao td {
+    font: bolder 22px "微软雅黑";
+    width: 30px;
+    height: 52px;
+
+    cursor: default
+}
+
+.shengxiao tr:nth-child(1) > td:nth-child(1), .shengxiao tr:nth-child(1) > td:nth-child(3), .shengxiao tr:nth-child(2) > td:nth-child(2).shengxiao tr:nth-child(2) > td:nth-child(3), .shengxiao tr:nth-child(3) > td:nth-child(1) {
+    background: url("../img/qiu-bai.png");
+    background-size: 100% 100%;
+}
+
+.renwen td {
+    /*border: 1px;*/
+    /*border-color: #111111;*/
+}
+
+.right {
+    background-color: aquamarine;
+    height: 600px;
+    margin: 0;
+
+}
